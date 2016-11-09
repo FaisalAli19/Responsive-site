@@ -200,7 +200,7 @@ Media Query Start Here
         padding-top: 90px;
     }
     .jumbotron h1{
-        font-size: 25px;
+        width: 80%;
     }
     .jumbotron h2 a{
         font-size: 20px;
