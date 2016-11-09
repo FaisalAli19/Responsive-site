@@ -7,3 +7,213 @@ Email: Faisalali1901#gmail.com
 /*--------------------------------------
 Global CSS Start Here
 --------------------------------------*/
+body{
+    font-size: 16px;
+    overflow-X: hidden;
+}
+
+/*--------------------------------------
+Navigation Bar CSS Start Here
+--------------------------------------*/
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
+    background-color: #000;
+}
+/*--------------------------------------
+Jumbotron CSS Start Here
+--------------------------------------*/
+.jumbotron{
+    background-color: #0fa7bc;
+    height: 400px;
+    margin-bottom: 0;
+}
+.jumbotron .row{
+    padding-top: 25px;
+}
+.jumbotron h1{
+    color: #fff;
+}
+.jumbotron h2 a{
+    color: #ddd;
+    text-decoration: none;
+}
+.jumbotron h2 a:hover{
+    color: #fff;
+}
+/*--------------------------------------
+Robinhood CSS Start Here
+--------------------------------------*/
+#Robinhood .row{
+    margin: 0;
+}
+#Robinhood .row1-col1{
+    background-color: #27212c;
+    height: 300px;
+}
+#Robinhood .row1-col1 h2{
+    color: #554b5e;
+    text-align: center;
+    line-height: 270px;
+}
+#Robinhood .row1-col2{
+    background-color: #bc3183;
+    text-align: center;
+    height: 300px;
+}
+#Robinhood .row1-col2 i{
+    font-size: 30px;
+    color: #fff;
+    line-height: 310px;
+}
+#Robinhood .row2-col1{
+    background-color: #5b0fa1;
+    height: 349.7px;
+    text-align: center;
+}
+#Robinhood .row2-col1 i{
+    color: #fff;
+    font-size: 30px;
+    line-height: 350px;
+}
+#Robinhood .row2-col2 {
+    background: url("../images/Bridge.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 349.7px;
+}
+#Robinhood .row2-col3 {
+    background: url("../images/Smile.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 349.7px;
+}
+/*--------------------------------------
+Article CSS Start Here
+--------------------------------------*/
+#Article{
+    padding: 20px 0;
+    background-color: #ccc;
+}
+#Article h2{
+    padding: 15px 0;
+}
+#Article h2 a{
+    color: #088ca5;
+    text-decoration: none;
+}
+#Article h2 a:hover{
+    color: #fff;
+}
+#Article p{
+    padding: 10px 10px 10px 0;
+    text-align: justify;
+}
+/*--------------------------------------
+Footer CSS Start Here
+--------------------------------------*/
+footer{
+    background-color: #27212c;
+    padding: 20px;
+}
+footer ul{
+    margin-bottom: 0;
+    text-align: center;
+    padding: 0;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer ul li a:hover{
+    color: #ccc;
+}
+
+/*------------------------------------------------------------
+Media Query Start Here
+------------------------------------------------------------*/
+@media screen and (min-width:768px) and (max-width:991px){
+    /*--------------------------------------
+    Jumbotron CSS Start Here
+    --------------------------------------*/
+    .jumbotron h1{
+        color: #fff;
+        font-size: 58px;
+    }
+    .jumbotron h2 a{
+        color: #ddd;
+        text-decoration: none;
+    }
+    .jumbotron h2 a:hover{
+        color: #fff;
+    }
+}
+@media screen and (min-width:512px) and (max-width:767px){
+    /*--------------------------------------
+    Navbar CSS Start Here
+    --------------------------------------*/
+    nav #Nav-list{
+        display: none;
+    }
+
+    /*--------------------------------------
+    Jumbotron CSS Start Here
+    --------------------------------------*/
+    .jumbotron .row{
+        padding-top: 80px;
+    }
+    .jumbotron h1{
+        font-size: 40px;
+    }
+
+    /*--------------------------------------
+    Robinhood CSS Start Here
+    --------------------------------------*/
+    #Robinhood .row{
+        margin: 0;
+    }
+    #Robinhood .row1-col1 h2{
+        margin: 0;
+        line-height: 300px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:511px){
+    /*--------------------------------------
+    Navbar CSS Start Here
+    --------------------------------------*/
+    nav #Nav-list{
+        display: none;
+    }
+    /*--------------------------------------
+    Jumbotron CSS Start Here
+    --------------------------------------*/
+    .jumbotron .row{
+        padding-top: 90px;
+    }
+    .jumbotron h1{
+        font-size: 25px;
+    }
+    .jumbotron h2 a{
+        font-size: 20px;
+    }
+    /*--------------------------------------
+    Robinhood CSS Start Here
+    --------------------------------------*/
+    #Robinhood .row{
+        margin: 0;
+    }
+    #Robinhood .row1-col1 h2{
+        margin: 0;
+        line-height: 300px;
+        font-size: 18px;
+    }
+}
