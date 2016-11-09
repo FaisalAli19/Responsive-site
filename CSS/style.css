@@ -200,7 +200,7 @@ Media Query Start Here
         padding-top: 90px;
     }
     .jumbotron h1{
-        width: 80%;
+        font-size: 25px;
     }
     .jumbotron h2 a{
         font-size: 20px;
@@ -214,6 +214,6 @@ Media Query Start Here
     #Robinhood .row1-col1 h2{
         margin: 0;
         line-height: 300px;
-        font-size: 18px;
+        width: 80%;
     }
 }
