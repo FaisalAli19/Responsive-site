@@ -210,3 +210,11 @@ Media Query Start Here
         font-size: 20px;
     }
 }
+@media screen and (max-width:350px){
+    /*--------------------------------------
+    Footer CSS Start Here
+    --------------------------------------*/
+    footer ul li{
+        font-size: 20px;
+    }
+}
