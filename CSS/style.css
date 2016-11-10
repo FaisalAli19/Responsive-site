@@ -52,31 +52,46 @@ Robinhood CSS Start Here
 #Robinhood .row1-col1{
     background-color: #27212c;
     height: 300px;
+    position: relative;
 }
 #Robinhood .row1-col1 h2{
     color: #554b5e;
+    position: absolute;
     text-align: center;
-    line-height: 270px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 25px;
+    width: 100%;
 }
 #Robinhood .row1-col2{
     background-color: #bc3183;
     text-align: center;
     height: 300px;
+    position: relative;
 }
 #Robinhood .row1-col2 i{
     font-size: 30px;
     color: #fff;
-    line-height: 310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #Robinhood .row2-col1{
     background-color: #5b0fa1;
     height: 349.7px;
     text-align: center;
+    position: relative;
 }
 #Robinhood .row2-col1 i{
     color: #fff;
     font-size: 30px;
-    line-height: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #Robinhood .row2-col2 {
     background: url("../images/Bridge.jpg") center no-repeat;
@@ -174,17 +189,6 @@ Media Query Start Here
     .jumbotron h1{
         font-size: 40px;
     }
-
-    /*--------------------------------------
-    Robinhood CSS Start Here
-    --------------------------------------*/
-    #Robinhood .row{
-        margin: 0;
-    }
-    #Robinhood .row1-col1 h2{
-        margin: 0;
-        line-height: 300px;
-    }
 }
 @media screen and (min-width:320px) and (max-width:511px){
     /*--------------------------------------
@@ -204,16 +208,5 @@ Media Query Start Here
     }
     .jumbotron h2 a{
         font-size: 20px;
-    }
-    /*--------------------------------------
-    Robinhood CSS Start Here
-    --------------------------------------*/
-    #Robinhood .row{
-        margin: 0;
-    }
-    #Robinhood .row1-col1 h2{
-        margin: 0;
-        line-height: 300px;
-        width: 80%;
     }
 }
